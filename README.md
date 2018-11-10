@@ -2,7 +2,7 @@
 A latex template to write cs papers (especially in Databases area).
 
 
-If you think this template help you on writing research papers and you work on the related topics, please help to cite some of my publications:
+If you think this template helped you on writing research papers and you work on the related topics, please help to cite some of my publications:
 
 * ChengP,ChenL,YeJ.Cooperation-AwareTaskAssignmentinSpatialCrowdsourcing. Proceedingsofthe
 IEEE ICDE International Conference on Data Engineering, 2019. 
