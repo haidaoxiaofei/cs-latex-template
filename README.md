@@ -4,7 +4,7 @@ A latex template to write cs papers (especially in Databases area).
 
 If you think this template helped you on writing research papers and you work on the related topics, please help to cite some of my publications:
 
-* Cheng P,Chen L,Ye J. Cooperation-AwareTaskAssignmentinSpatialCrowdsourcing. Proceedingsofthe
+* Cheng P, Chen L, Ye J. Cooperation-AwareTaskAssignmentinSpatialCrowdsourcing. Proceedingsofthe
 IEEE ICDE International Conference on Data Engineering, 2019. 
 * Chen Z, Cheng P, Tong Y, Zeng Y, Chen L. Minimizing Maximum Delay of Task Assignment in Spatial Crowdsourcing. Proceedings of the IEEE ICDE International Conference on Data Engineering, 2019
 * Cheng P, Lian X, Jian X, Chen L. FROG: A Fast and Reliable Crowdsourcing Framework. IEEE Transac- tions on Knowledge and Data Engineering (TKDE), 2018
