@@ -1,0 +1,63 @@
+\usepackage{booktabs} % format tables
+\usepackage{times} % times font can reduce page length
+\usepackage{color} % color figures
+\usepackage{balance} %balance the end of the draft
+\usepackage{url} 
+%\usepackage[all]{nowidow}
+\usepackage{tabularx}
+\usepackage{siunitx} %unit package for special unit symbols
+\usepackage{epsfig,tabularx,subfigure,multirow, graphicx}
+\usepackage{enumitem}
+
+%\usepackage[sorting=none]{biblatex}
+
+\usepackage{hyperref} % add hyper reference to citations and references
+
+\let\proof\relax
+\let\endproof\relax
+\usepackage{amsthm,amssymb,amsmath}  % support for mathematic symbols
+
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\arraybackslash}p{#1}}
+
+\usepackage[linesnumbered,ruled,vlined]{algorithm2e}
+\SetKwRepeat{Do}{do}{while}% add do-while sentences
+\newcommand\mycommfont[1]{\scriptsize\ttfamily{#1}} %adjust the font size of comments
+\SetCommentSty{mycommfont}
+
+
+\newcommand{\stitle}[1]{\vspace{1ex} \noindent{\bf #1}}
+\long\def\comment#1{}
+
+\setlength{\algomargin}{1em} %adjust the side margin of algorithm blocks
+%\setlength{\textfloatsep}{1ex} %adjust the space above and below the float block, including algorithms, figures, tables
+
+\DeclareMathOperator*{\argmin}{arg\,min}
+
+\newcommand{\nop}[1]{}
+
+\newcommand{\figureTopMargin}{\vspace{-3ex}}
+\newcommand{\figureCaptionMargin}{\vspace{-2ex}}
+\newcommand{\figureBelowMargin}{\vspace{-2ex}}
+\newcommand{\tableTopMargin}{\vspace{-4ex}}
+\newcommand{\tableBelowMargin}{\vspace{-3ex}}
+\newcommand{\algoTopMargin}{\vspace{-3ex}}
+\newcommand{\algoBelowMargin}{\vspace{-3ex}}
+\newcommand{\itemMargin}{\vspace{-1ex}}
+
+\newcommand\abs[1]{\left\lvert #1 \right\rvert}
+
+
+%%%%%%%uncomment below commands to enable related blocks
+\newtheorem{theorem}{\bf Theorem}[section]
+\newtheorem{lemma}{\bf Lemma}[section]
+\newtheorem{corollary}{\bf Corollary}[section]
+\newtheorem{example}{\bf Example}
+
+\theoremstyle{remark}
+\newtheorem{remark}{\bf Remark}[section]
+
+\theoremstyle{definition}
+\newtheorem{definition}{\bf Definition}
+

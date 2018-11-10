@@ -1,0 +1,99 @@
+\section{Solution1}
+\label{sec:solution1}
+
+Paragraph 1: what is the general idea of the solution1? Greedy based? DP? Generally introduce solution1.
+
+\subsection{some properties}
+Do you have any properties about the problem to use to develop the algorithm? Show them in this subsection with lemmas. 
+
+Or you need define some special values to ease your algorithm description, do it here!
+
+
+You may need to write some equations. Here I show some example equations styles.
+
+1. Multiple Equations with numbering:
+
+\begin{eqnarray}
+A &=& B \label{eq:equation1}\\
+B &=& C.\label{eq:equation2}
+\end{eqnarray}
+
+2. Single equation with numbering:
+
+\begin{equation}
+A = B \label{eq:equation3}
+\end{equation}
+
+3. Simple equation without numbering:
+$$A = B$$
+
+4. Align equations:
+\begin{eqnarray}
+&& function(A) \notag\\
+&=& A^3 +  A^2 + A^1\label{eq:equation4}
+\end{eqnarray}
+
+5. Equation with more than one conditions:
+
+\begin{equation}
+A=\left\{
+\begin{array}{ll}
+A + 1, & A \neq 0 \\
+A, & A = 0
+\end{array}
+\right. \label{eq:equation5}
+\end{equation}
+
+6. Linear Programming:
+
+\begin{alignat}{2}
+& \text{max}&  & \sum\lambda_{ik}\cdot x_{ik}\\
+& \text{s.t.}&    \quad & 
+\begin{aligned}[t]
+&d(u_i, v)\cdot x_{ik} \leq r,    &&i =1, \dots, m; k = 1, \dots, q,\\
+&\sum_{k=1}^{q} x_{ik} \leq 1,					 &&i =1, \dots, m,
+\end{aligned}\notag
+\end{alignat}
+
+\subsection{proposed algorithm}
+
+Your algorithm needs a interesting name! Stop simply calling it "the Greedy algorithm" or "the Dynamic Programming Based Algorithm"! Do not use these boring names, please!
+
+Introduce the details of your algorithms with natural language. Below is an example of  pseudocode.
+
+
+\begin{algorithm}[t]
+	\DontPrintSemicolon
+	\KwIn{A set $C$ of $n$ workers, and a set $R$ of $m$ riders}
+	\KwOut{A set of updated scheduling sequences $S$}
+	\ForEach{$r_i \in R$}{
+		retrieve a list $C_i$ of workers that are valid to $r_i$\;
+	}
+	
+	
+	\While{$C_i \neq \emptyset$}{
+		
+		\uIf{rider $r_i$ can be arranged in $c_j$}{
+			do if.\;
+			\textbf{break}\;
+		}
+		\ElseIf{$r_i$ can replace rider $r'_i$ of $c_j$}{
+			do else.\;
+			\textbf{break}\;
+		}
+	}
+	
+		
+	
+
+	\Do{condition}{Eample of do-while-loop}
+	
+	\Return{$\mathbb{S}$}\;
+	\caption{ExampleAlgorithm}
+	\label{algo:example_algorithm}
+\end{algorithm}
+
+\subsection{theory analyses}
+
+Analyze the approximation ratios, competitive ratios, time complexities here.
+

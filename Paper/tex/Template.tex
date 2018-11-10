@@ -1,0 +1,60 @@
+\documentclass{vldb}
+
+\input{head.tex}
+
+
+
+\vldbTitle{An Template of Research Papers}
+\vldbAuthors{Peng Cheng}
+\vldbDOI{https://doi.org/xxx.xxxx/xxx.xxxx}
+
+\title{An Template of Research Papers}
+
+\numberofauthors{2}
+\author{
+\alignauthor Peng Cheng \\
+\affaddr{Hong Kong University of Science and Technology} \\
+\affaddr{Hong Kong, China} \\
+\affaddr{pchengaa@connect.ust.hk}
+\alignauthor Example \\
+\affaddr{Example University} \\
+\affaddr{Earth, Universe} \\
+\affaddr{example@example.edu}
+}
+
+\begin{document}
+
+
+\maketitle
+
+
+\input{abstract.tex}
+
+
+
+\input{introduction.tex}
+
+\input{problemDefinition.tex}
+\input{proposedSolution1.tex}
+\input{proposedSolution2.tex}
+\input{experimentalStudy.tex}
+\input{relatedWork.tex}
+\input{conclusion.tex}
+\input{ack.tex}
+
+
+
+
+
+
+
+
+\bgroup\small
+\bibliographystyle{ieeetr}
+\let\xxx=\bibitem\def\bibitem{\par\vspace{1mm}\xxx} % % When you need space at the end, change 1 to 0, which can be your last chance!
+\bibliography{../references/add}
+\egroup
+
+
+
+\end{document}
