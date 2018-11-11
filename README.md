@@ -1,6 +1,15 @@
 # cslatextemplate
 A latex template to write cs papers (especially in Databases area).
 
+Recommended Tools:
+
+IDE: 
+Texstudio
+
+Tex Environment:
+MacTeX (MacOS)
+Texlive (Linux and Windows)
+
 
 If you think this template helped you on writing research papers and you work on the related topics, please help to cite some of my publications:
 
