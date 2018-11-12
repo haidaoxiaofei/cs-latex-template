@@ -10,6 +10,9 @@ Tex Environment:
 MacTeX (MacOS)
 Texlive (Linux and Windows)
 
+Q&A:
+1. If eps cannot be convert to pdf, add "-shell-escape" to pdflatex command.
+
 
 If you think this template helped you on writing research papers and you work on the related topics, please help to cite some of my publications:
 
