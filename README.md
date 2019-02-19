@@ -10,6 +10,9 @@ Tex Environment:
 MacTeX (MacOS)
 Texlive (Linux and Windows)
 
+Grammar Checker for Tex Project:
+Textidote: https://github.com/sylvainhalle/textidote  
+
 Q&A:
 1. If eps cannot be convert to pdf, add "-shell-escape" to pdflatex command.
 
