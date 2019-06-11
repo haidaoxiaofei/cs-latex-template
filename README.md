@@ -16,5 +16,8 @@ Textidote: https://github.com/sylvainhalle/textidote
 Q&A:
 1. If eps cannot be convert to pdf, add "-shell-escape" to pdflatex command.
 
+If you are a newbie on technical writing, some materials under the folder "SlidesOnWritingPapers" may help you a lot. Spend some time to read them carefully, you can save much more time when you start to writing.
 
-If you think this template helped you on writing research papers and you work on the related topics, please help to cite some of my publications from my homepage: https://cspcheng.github.io
+
+Hope this template can you on writing research papers. More information about me can be found in my homepage: https://cspcheng.github.io
+
