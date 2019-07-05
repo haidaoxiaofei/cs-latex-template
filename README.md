@@ -19,5 +19,5 @@ Q&A:
 If you are a newbie on technical writing, some materials under the folder "SlidesOnWritingPapers" may help you a lot. Spend some time to read them carefully, you can save much more time when you start to writing.
 
 
-Hope this template can you on writing research papers. More information about me can be found in my homepage: https://cspcheng.github.io
+Hope this template can help you on writing research papers. More information about me can be found in my homepage: https://cspcheng.github.io
 
