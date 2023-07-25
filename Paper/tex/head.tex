@@ -3,7 +3,7 @@
 \usepackage{color} % color figures
 \usepackage{balance} %balance the end of the draft
 \usepackage{url} 
-%\usepackage[all]{nowidow}
+\usepackage[all]{nowidow}
 \usepackage{tabularx}
 \usepackage{siunitx} %unit package for special unit symbols
 \usepackage{tabularx,subfigure,multirow, graphicx}
@@ -11,17 +11,17 @@
 \usepackage{epstopdf} % convert eps figures to pdf
 \usepackage{enumitem}
 \usepackage{caption}
-\captionsetup[figure]{font=small,skip=0ex, belowskip=-5pt}
+\captionsetup[figure]{font=small,skip=0ex, belowskip=-2pt}
 \captionsetup[table]{font=small,skip=-2pt}
-
+\usepackage[a-2b]{pdfx}%enable pdfa
 
 %\usepackage[sorting=none]{biblatex}
-\setlength{\textfloatsep}{2ex}% Remove vertical space below Algrithm block
-\usepackage[bookmarks=false]{hyperref} % add hyper reference to citations and references
+\setlength{\textfloatsep}{3ex}% Remove vertical space below Algrithm block
+\usepackage[pdfa]{hyperref} % add hyper reference to citations and references
 
 \let\proof\relax
 \let\endproof\relax
-\usepackage{amsthm,amssymb,amsmath}  % support for mathematic symbols
+\usepackage{amsthm,amsmath}  % support for mathematic symbols
 
 \newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
 \newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}

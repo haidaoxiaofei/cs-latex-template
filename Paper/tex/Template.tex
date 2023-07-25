@@ -1,34 +1,43 @@
-\documentclass{vldb}
-
+\documentclass[sigconf, nonacm]{acmart}
 \input{head.tex}
 
 
 
-\vldbTitle{A Template of Research Papers}
-\vldbAuthors{Peng Cheng}
-\vldbDOI{https://doi.org/xxx.xxxx/xxx.xxxx}
+\newcommand\vldbdoi{XX.XX/XXX.XX}
+\newcommand\vldbpages{XXX-XXX}
+% issue-specific
+\newcommand\vldbvolume{16}
+\newcommand\vldbissue{11}
+\newcommand\vldbyear{2023}
+% should be fine as it is
+\newcommand\vldbauthors{\authors}
+\newcommand\vldbtitle{\shorttitle} 
+% leave empty if no availability url should be set
+\newcommand\vldbavailabilityurl{}
+% whether page numbers should be shown or not, use 'plain' for review versions, 'empty' for camera ready
+\newcommand\vldbpagestyle{empty} 
+
 
 \title{A Template of Research Papers}
 
-\numberofauthors{2}
-\author{
-\alignauthor Peng Cheng \\
-\affaddr{East China Normal University} \\
-\affaddr{Shanghai, China} \\
-\affaddr{pcheng@sei.ecnu.edu.cn}
-\alignauthor Example \\
-\affaddr{Example University} \\
-\affaddr{Earth, Universe} \\
-\affaddr{example@example.edu}
+\author{Peng Cheng}
+\orcid{0000-0002-9797-6944}
+\affiliation{%
+	\institution{East China Normal University}
+	\state{Shanghai}
+	\country{China}
 }
+\email{pcheng@sei.ecnu.edu.cn}
+
+
 
 \begin{document}
-
+\input{abstract.tex}
 
 \maketitle
 
 
-\input{abstract.tex}
+
 
 
 
